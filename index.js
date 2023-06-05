@@ -13,7 +13,7 @@ document.getElementById('game-area').addEventListener('click', function() {
 
 function startTimer() {
   startTime = new Date().getTime();
-  document.getElementById('game-area').style.backgroundColor = 'red';
+  document.getElementById('game-area').style.backgroundColor = 'yellow';
 }
 
 function endTimer() {
